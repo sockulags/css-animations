@@ -1,29 +1,35 @@
 /*// BASE STYLES //*/
-body{
+body {
   background: lightblue;
   text-align: center;
 }
 
-
-.wrapper{
+.wrapper {
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
 }
 
-img{
-  transform: rotateZ(-90deg) translate(200px) scale(2) ;
+img {
 }
 
+.circle {
+  width: 100px;
+  padding: 50px 0;
+  line-height: 0;
+  background: pink;
+  margin: 60px auto;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  transition: background 1s, transform 0.3s 0.3s ease;
+}
+
+
+.circle:hover{
+  background: salmon;
+  transform: rotate(360deg);
+}
 /*// ELEMENTS TO ANIMATE //*/
 
-
-
 /*// KEYFRAMES //*/
-
-
-
-
-
-
-
