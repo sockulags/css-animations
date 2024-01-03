@@ -12,7 +12,7 @@ body{
 }
 
 img{
-  transform: ;
+  transform: rotateZ(-90deg) translate(200px) scale(2) ;
 }
 
 /*// ELEMENTS TO ANIMATE //*/
