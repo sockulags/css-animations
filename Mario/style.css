@@ -61,9 +61,7 @@ html, body {
   position: absolute;
   top: 100px;
   left: 0;
-  animation:  drive 5s both infinite reverse ease-in-out;
-
-  
+  animation:  drive 5s both infinite reverse ease-in-out;  
 }
 
 .cloud{
